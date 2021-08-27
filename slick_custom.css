@@ -1,0 +1,146 @@
+	.slidehaberblock {
+	    width: 350px;
+	    margin: 10px;
+	}
+	.panel {
+	    position: relative;
+	    margin-bottom: 27px;
+	    background-color: #fff;
+	    border-radius: 3px;
+	}
+	.slidehaberblockA {
+	    margin-bottom: 10px;
+	}
+	.panel.panel-border {
+	    border-style: solid;
+	    border-width: 0;
+	        border-top-width: 0px;
+	}
+	.panel-warning.panel-border {
+	    border-color: #f6bb42;
+	}
+	.panel.panel-border.top {
+	    border-top-width: 5px;
+	}
+	.panel-body {
+	    position: relative;
+	    padding: 15px;
+	    border: 1px solid #e2e2e2;
+	}
+	.media-vendetta, .media-vendetta img {
+	    width: 100% !important;
+	    height: 150px !important;
+	}.sliderCss-haber h5 {
+	    margin: 10px 0 !important;
+	}
+	.vendetta-haber-detay {
+	    font-size: 10px !important;
+	    line-height: 12px !important;
+	    height: 35px;
+	}
+	.vendetta-haber-alt {
+	    font-size: 10px !important;
+	    line-height: 12px !important;
+	    margin-top: 10px;
+	    padding-left: 10px;
+	    border-left: 3px solid #DF5640;
+	}
+	.vendetta-haber-label-fix {
+	    padding: 3px !important;
+	    margin: 0px !important;
+	        margin-top: 0px;
+	        margin-left: 0px;
+	    margin-left: 5px !important;
+	    height: 20px !important;
+	    line-height: 15px !important;
+	    font-size: 10px !important;
+	    font-family: arial !important;
+	    margin-top: -5px !important;
+	}.bg-warning {
+	    background-color: #f6bb42 !important;
+	    color: #fff;
+	}
+	.pull-right {
+	    float: right !important;
+	}
+	.slick-prev {
+	    left: -25px;
+	}
+	.slick-prev, .slick-next {
+	    position: absolute;
+	    display: block;
+	    height: 20px;
+	    width: 20px;
+	    line-height: 0;
+	    font-size: 0;
+	    cursor: pointer;
+	    background: 0 0;
+	    color: transparent;
+	    top: 50%;
+	    margin-top: -10px;
+	    padding: 0;
+	    border: none;
+	    outline: none;
+	}
+	.slick-next, .slick-next a, .slick-prev, .slick-prev a {
+	    border: 0px !important;
+	}
+	.slick-next {
+	    right: -25px;
+	}
+	#vrpg-footer01 {
+	    position: relative;
+	    background: #f1f1f1;
+	    padding: 0px 0 0px;
+	    z-index: 9;
+	    height: 340px;
+	}
+	article {
+		display: block;
+	}
+	.vrpg-ftalan {
+	    margin: 0 auto;
+	    padding: 0 50px;
+	}
+	.temizle {
+	    clear: both;
+	}
+	.sliderCss-haber {
+	    padding-top: 20px;
+	}
+
+	.slick-prev::before, .slick-next::before {
+	    color: #000 !important;
+	}
+
+	.slick-prev::before, .slick-next::before {
+	    /*font-family: slick;*/
+	    font-size: 20px;
+	    line-height: 1;
+	    color: #fff;
+	    opacity: .75;
+	    -webkit-font-smoothing: antialiased;
+	    -moz-osx-font-smoothing: grayscale;
+	}
+	.slick-prev::before {
+	    content: "←";
+	}
+	.slick-next::before {
+	    content: "→";
+	}
+	.haber-slide .slick-dots {
+	    z-index: 10;
+	    bottom: -21px !important;
+	}
+	.slick-dots li, .slick-dots li button, .slick-dots li button::before {
+	    width: 40px !important;
+	    height: 5px !important;
+	    padding: 0px !important;
+	}
+	.slick-dots li button {
+	    background: #e2e2e2;
+	}
+	.slick-dots li button::before {
+	    background: #c4304c !important;
+	    color: transparent !important;
+	}
